@@ -1,21 +1,22 @@
 <div id="app"></div>
 
 <p>Joueur 1</p> <! -- On crée un paragraphe avec comme titre le joeur 1 --> 
-<select id="choix1"> <! -- On crée un select pour afficher les 3 options  --> 
-  <option value=0>Pierre</option>
-  <option value=1>Ciseaux</option>
-  <option value=2>Papier</option>
+<select name="player1" id="choix1"> <! -- On crée un select pour afficher les 3 options  --> 
+  <option value="Pierre">Pierre</option>
+  <option value="Ciseaux">Ciseaux</option>
+  <option value="Papier">Papier</option>
 </select>
 
 <p>Joueur 2</p> <! -- On crée un paragraphe avec comme titre le joeur 1 --> 
-<select id="choix2"> <! -- On crée un select pour afficher les 3 options --> 
-  <option value=0>Pierre</option>
-  <option value=1>Ciseaux</option>
-  <option value=2>Papier</option>
+<select name="player2" id="choix2"> <! -- On crée un select pour afficher les 3 options --> 
+  <option value="Pierre">Pierre</option>
+  <option value="Ciseaux">Ciseaux</option>
+  <option value="Papier">Papier</option>
 </select>
 
-<p></p> <! -- On crée un paragrpahe pour créer un saut de ligne --> 
+</br>
+</br> <! -- On crée un /br pour créer un saut de ligne --> 
 
 <button id="btn">C'est parti!</button> <! -- On crée un bouton qui va permettre de lancer le jeu et qui sera en liaison avec le JS --> 
 
-<p id="resultat"></p> <! -- On crée un paragraphe où on affichera le résultat --> 
+<p id="resultat">Résultat</p> <! -- On crée un paragraphe où on affichera le résultat --> 
