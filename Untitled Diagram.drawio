@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T08:52:53.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="KHEfoYq1jzNW4HR5iTXr" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T09:08:35.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="dtW_-Y-wXoQSjg-ABslf" version="14.4.2" type="github">
   <diagram id="x8W8AJZ4dCZI1heM8H32" name="Page-1">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,72 @@
         </mxCell>
         <mxCell id="_py3yEN6EtsgkCyzsrZI-44" value="n,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-100" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-49" value="&lt;u&gt;Groupe&lt;/u&gt;&lt;br&gt;id groupe&lt;br&gt;nom groupe&lt;br&gt;id président&lt;br&gt;id assamblée" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.011;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-50" target="_py3yEN6EtsgkCyzsrZI-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-50" target="_py3yEN6EtsgkCyzsrZI-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="670" />
+              <mxPoint x="300" y="750" />
+              <mxPoint x="210" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-50" target="_py3yEN6EtsgkCyzsrZI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-50" value="&lt;u&gt;Assamblée&lt;/u&gt;&lt;br&gt;id assamblée&lt;br&gt;id commune&lt;br&gt;id président&lt;br&gt;id élus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="590" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-51" target="_py3yEN6EtsgkCyzsrZI-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128" y="790" />
+              <mxPoint x="50" y="790" />
+              <mxPoint x="50" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-51" target="_py3yEN6EtsgkCyzsrZI-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-51" target="_py3yEN6EtsgkCyzsrZI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-51" value="&lt;u&gt;Politicien&lt;/u&gt;&lt;br&gt;id politicien&lt;br&gt;nom&lt;br&gt;prénom&lt;br&gt;adresse&lt;br&gt;id parti&lt;br&gt;id assamblée&lt;br&gt;id commune" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="830" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-52" value="&lt;u&gt;Election&lt;/u&gt;&lt;br&gt;id election&lt;br&gt;id politicien&lt;br&gt;id suppléant&lt;br&gt;id assamblée" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="850" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-54" value="&lt;u&gt;Commune&lt;/u&gt;&lt;br&gt;id commune&lt;br&gt;nom commune" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="790" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-57" value="&lt;u&gt;Parti politique&lt;br&gt;&lt;/u&gt;id parti&lt;br&gt;nom&lt;br&gt;tendance politique&lt;br&gt;date fondation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="580" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-77" value="1,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-78" value="1,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-79" value="1,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="790" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-80" value="n,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="840" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-81" value="n,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-82" value="n,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
