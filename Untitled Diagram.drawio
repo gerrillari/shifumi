@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T14:42:27.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" version="14.4.0" etag="yr0B0m7o9Dy6HkNYWjiA" type="github"><diagram id="x8W8AJZ4dCZI1heM8H32">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-18T08:47:10.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="dHUknINQezJylUjpykwM" version="14.4.2" type="github">
+  <diagram id="x8W8AJZ4dCZI1heM8H32" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-1" target="_py3yEN6EtsgkCyzsrZI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-29" target="_py3yEN6EtsgkCyzsrZI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-1" target="_py3yEN6EtsgkCyzsrZI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-1" target="_py3yEN6EtsgkCyzsrZI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-1" value="&lt;u&gt;Licence&lt;br&gt;&lt;/u&gt;id licence&lt;br&gt;id passeport&lt;br&gt;id club&lt;br&gt;date licence" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-2" value="&lt;u&gt;Passeport&lt;br&gt;&lt;/u&gt;id passeport&lt;br&gt;nom&lt;br&gt;prénom&lt;br&gt;Adresse&lt;br&gt;Téléphone&lt;br&gt;Niveau Groupe&lt;br&gt;Sanguin&lt;br&gt;Date naissance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-3" value="&lt;u&gt;Club&lt;/u&gt;&lt;br&gt;id club&lt;br&gt;nom&lt;br&gt;adresse&lt;br&gt;téléphone&lt;br&gt;président&lt;br&gt;date initiale&lt;br&gt;date fin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="345" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-5" value="&lt;u&gt;Moniteur&lt;/u&gt;&lt;br&gt;id moniteur&lt;br&gt;id passeport&lt;br&gt;id licence" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-7" value="&lt;u&gt;Plongeur&lt;/u&gt;&lt;br&gt;id plongeur&lt;br&gt;id licence&lt;br&gt;id passeport&lt;br&gt;id club" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="230" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-8" target="_py3yEN6EtsgkCyzsrZI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-8" target="_py3yEN6EtsgkCyzsrZI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-8" value="&lt;u&gt;Palanquées&lt;/u&gt;&lt;br&gt;id palanquées&lt;br&gt;id licence&lt;br&gt;id passeport&lt;br&gt;id plongeur&lt;br&gt;id club&lt;br&gt;id monitor&lt;br&gt;date&lt;br&gt;heure&lt;br&gt;nom site&lt;br&gt;durée&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="30" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-9" target="_py3yEN6EtsgkCyzsrZI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-9" target="_py3yEN6EtsgkCyzsrZI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-9" value="&lt;u&gt;Travail&lt;/u&gt;&lt;br&gt;id travail&lt;br&gt;id moniteur&lt;br&gt;id club&lt;br&gt;date embauche&lt;br&gt;date fin" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-28" value="1,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-29" value="1,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_py3yEN6EtsgkCyzsrZI-1" target="_py3yEN6EtsgkCyzsrZI-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="160" as="sourcePoint" />
+            <mxPoint x="220" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-31" value="1,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-35" value="n,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-36" value="1,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-37" value="1,1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_py3yEN6EtsgkCyzsrZI-41" value="1,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="432.5" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
